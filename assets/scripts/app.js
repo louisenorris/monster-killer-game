@@ -10,7 +10,7 @@ adjustHealthBars(chosenMaxLife);
 
 function attackMonster(mode) {
     let maxDamage;
-    if (mode === 'ATACK') {
+    if (mode === 'ATTACK') {
         maxDamage = ATTACK_VALUE;
     } else if (mode === 'STRONG_ATTACK') {
         maxDamage = STRONG_ATTACK_VALUE;
